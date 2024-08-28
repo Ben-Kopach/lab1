@@ -20,7 +20,7 @@ int grade;
   
   printf("What is your age? ");
   scanf("%d", &age);
-  printf("What is your height? ");
+  printf("What is your height (in feet)? ");
   scanf("%d", &height);
   printf("What is your grade? ", grade);
   scanf("%d", &grade);
@@ -28,7 +28,7 @@ int grade;
 
 printf("Is this information correct?\n");
 printf("Your are %d years old\n", age);
-printf("Your are %d\n", height);
+printf("Your are %d feet tall\n", height);
 printf("Your are in %d grade\n", grade);
 
 return 0;
