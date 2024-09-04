@@ -13,9 +13,9 @@
 
 int main () {
 
-int age;
-int height;
-int grade;
+int age; 
+int height; 
+int grade; 
   
   
   printf("What is your age? ");
